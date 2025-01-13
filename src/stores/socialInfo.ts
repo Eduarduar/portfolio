@@ -8,7 +8,7 @@ export const socialInfo: SocialInfo[] = [
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/eduarduar/',
-    icon: 'https://icons.ly/linkedin?viewbox=auto&size=20'
+    icon: '/src/assets/svg/linkedin.svg'
   },
   {
     name: 'GitHub',

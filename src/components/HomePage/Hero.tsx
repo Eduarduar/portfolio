@@ -149,7 +149,7 @@ function Hero() {
                 href={social.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 dark:text-slate-200"
+                className="flex items-center gap-2 dark:text-slate-200 max-w-5 max-h-5"
               >
                 <img src={social.icon} alt={social.name} />
               </a>
