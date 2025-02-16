@@ -15,6 +15,23 @@ export interface ProjectInfo {
 
 export const projectsInfo: ProjectInfo[] = [
   {
+    name: 'Toll Calculator',
+    desc: 'A web application to calculate the costs of a route in Mexico.',
+    repo: 'https://github.com/Eduarduar/tollCalculator',
+    live: 'https://tollcalculator.onrender.com/',
+    image: '/projects/TollCalculator.webp',
+    techs: [
+      { name: 'Typescript', cdn: 'https://icons.ly/typescript?viewbox=auto&size=20' },
+      { name: 'Vue.js', cdn: 'https://icons.ly/vuedotjs?viewbox=auto&size=20' },
+      { name: 'TailwindCSS', cdn: 'https://icons.ly/tailwindcss?viewbox=auto&size=20' },
+      { name: 'Vite', cdn: 'https://icons.ly/vite?viewbox=auto&size=20' },
+      { name: 'Node.js', cdn: 'https://icons.ly/nodedotjs?viewbox=auto&size=20' },
+      { name: 'Axios', cdn: 'https://icons.ly/axios?viewbox=auto&size=20' },
+      { name: 'Express', cdn: 'https://icons.ly/express/gray?viewbox=auto&size=20' }
+    ],
+    pined: true
+  },
+  {
     name: 'SummerLearn',
     desc: 'A platform for managing educational programs and resources to support low-income communities.',
     repo: 'https://github.com/cristaalm/frontend-summerlearn',
@@ -64,7 +81,7 @@ export const projectsInfo: ProjectInfo[] = [
       { name: 'TailwindCSS', cdn: 'https://icons.ly/tailwindcss?viewbox=auto&size=20' },
       { name: 'HTML5', cdn: 'https://icons.ly/html5?viewbox=auto&size=20' }
     ],
-    pined: true
+    pined: false
   },
   {
     name: 'CETIs 84 credentials',
