@@ -9,8 +9,9 @@ import { certificationsInfo } from '@/stores/certificationsInfo'
 // Configuración opcional
 NProgress.configure({ showSpinner: false, speed: 500 })
 
-const Home = lazy(() => import('@/views/Home'))
+// const Home = lazy(() => import('@/views/Home'))
 const PDFRedirect = lazy(() => import('@/views/PDFViewer'))
+const Unavlible = lazy(() => import('@/views/Unavlible'))
 
 interface RouteChangeHandlerProps {
   children: ReactNode
@@ -44,7 +45,9 @@ const AppRoutes: React.FC = () => {
         <Suspense fallback={<LoadingPage />}>
           <Routes>
             {/* Ruta de inicio */}
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
+
+            <Route path="/" element={<Unavlible />} />
 
             {/* Rutas dinámicas para las certificaciones */}
             {certificationsInfo.map((certification) => (
